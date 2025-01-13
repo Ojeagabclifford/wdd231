@@ -277,15 +277,14 @@ button{
     }
 
 /* this the hamburbermenu */
-    /* #meun::before{
-        content: "≡";
-        font-size: 40px;
+    button{
+        font-size: 70px;
 
         
         color: white;
-        text-decoration: none;
+        background-color: var(--primary-color);
 
-    } */
+    }
     .show a:hover{
         background-color: var(--secoundary-color);
     }
