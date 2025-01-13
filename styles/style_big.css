@@ -248,6 +248,9 @@ footer{
     background-color: #006E90;
 }
 
+button{
+   display: none;
+}
 
 
 @media only screen and (max-width:40em){
@@ -274,7 +277,7 @@ footer{
     }
 
 /* this the hamburbermenu */
-    #meun::before{
+    /* #meun::before{
         content: "≡";
         font-size: 40px;
 
@@ -282,7 +285,7 @@ footer{
         color: white;
         text-decoration: none;
 
-    }
+    } */
     .show a:hover{
         background-color: var(--secoundary-color);
     }
@@ -290,6 +293,7 @@ footer{
         display: block;
         color: white;
     }
+
     #meun{
         display: block;
         margin-left: 1px;
