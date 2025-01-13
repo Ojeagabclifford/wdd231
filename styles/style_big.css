@@ -12,7 +12,7 @@
     --accent-1: #ADCAD6;
     --margin-:10em;
     --padding:20px;
-    --front-:  font-family: "Roboto", serif;
+    --front-: "Roboto", serif;
     --h1:2.5rem;
     --h2:2rem;
     --p:1rem;
@@ -307,7 +307,7 @@ footer{
 
     nav a{
         display: none;
-        border-radius: none;
+        /* border-radius: none; */
         color: white;
     }
 
@@ -336,7 +336,7 @@ footer{
     .section1,.section2{
         height: 300px;
         border: 2px solid var(--accent-1);
-        border-radius: none;
+        /* border-radius: none; */
         box-shadow: none;
         margin: 5px;
         width: 100%;
