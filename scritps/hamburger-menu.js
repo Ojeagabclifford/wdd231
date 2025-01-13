@@ -4,6 +4,8 @@
 const mainnav = document.querySelector('.navs')
 const hambutton = document.querySelector('#meun');
 
+hambutton.innerHTML='';
+
 
 hambutton.addEventListener('click',() =>{
     mainnav.classList.toggle('show');
