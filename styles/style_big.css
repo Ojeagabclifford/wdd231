@@ -1,11 +1,14 @@
+
+
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 :root{
-    --primary-color:#006E90;
-    --secoundary-color: #F18F01;
+    --primary-color:#245C40;
+    --secoundary-color:#9A173A;
     --accent-1: #ADCAD6;
     --margin-:10em;
     --padding:20px;
@@ -57,10 +60,11 @@ nav{
 
 nav a{
     text-decoration: none;
-    color: #01060C;
+    color: white;
     padding: 10px;
     text-align: center;
     width: 100%;
+    flex: 1 1 100%;
 
 }
 nav a:hover{
@@ -70,4 +74,294 @@ nav a:hover{
 
 /* top nav */
 
+.main-contianer{
+    display: grid;
+    grid-template-columns: 1fr 35%;
+    column-gap: 10px;
+    margin: 0 10px 0 10px;
+}
 
+.section1{
+    width: 100%;
+   
+    
+}
+
+.section3{
+    width:100%;
+    grid-column: 1/3;
+}
+.section2{
+    text-wrap: nowrap;
+    
+}
+
+
+section h2{
+    font-size: 1.2em;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 6px;
+    
+
+}
+
+.section1,.section2{
+    height: 300px;
+    border: 2px solid var(--accent-1);
+    border-radius: 6px 6px 14px 10px;
+    box-shadow: 3px 4px 15px var(--secoundary-color);
+    margin: 5px;
+}
+
+.section2 img{
+    width: 80%;
+    /* margin-left: 10%; */
+    margin-top: 10px;
+    height: 70%;
+
+    
+    /* position: relative;
+    top: 30px; */
+    
+
+
+}
+.section2{
+    text-align: center;
+}
+.nd-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+    text-align: center;
+    border-bottom: 1px solid white;
+   
+}
+.nd-container a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-wrap: nowrap;
+    background-color: var(--secoundary-color);
+    margin: 5px;
+    width: 110px;
+    border-radius: 5%;
+    
+}
+a:hover{
+    color: var(--accent-1);
+    background-color: var(--primary-color);
+}
+
+
+#course-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    column-gap: 10px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    
+
+}
+.section3{
+    margin-bottom: 10px;
+
+}
+
+.more-d-container h3{
+    padding: 15px;
+    text-wrap: nowrap;
+    text-decoration: none;
+    color: #000;
+    
+    
+    margin: 5px;
+    background-color: rgb(148, 247, 148);
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.more-d-container h3:hover{
+    color: var(--primary-color);
+    background-color: var(--secoundary-color);
+}
+
+
+/* this is the main */
+
+footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer1 img{
+    width: 5%;
+
+}
+
+.containecr{
+    background-color: #000;
+    height: 100px;
+
+}
+
+
+.pp{
+    text-align: center;
+    margin: 10px;
+    font-size: larger;
+}
+
+
+#menu{
+    display: none;
+}
+
+.more-d h3{
+    background-color:rgb(248, 63, 63) ;
+    padding: 15px;
+    text-wrap: nowrap;
+    text-decoration: none;
+    color: #000;
+    
+    
+    margin: 5px;
+    
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.more-d h3:hover{
+    background-color: #006E90;
+}
+
+
+
+@media only screen and (max-width:40em){
+
+    .profile img{
+        height: 80%;
+        width: 15%;
+        margin: 0;
+        padding: 0;
+        border-radius: 0%;
+        box-shadow: none;
+
+    }
+ .profile{
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    
+ }
+
+
+    h1{
+        font-size: 1.3rem;
+    }
+
+/* this the hamburbermenu */
+    #meun::before{
+        content: "≡";
+        font-size: 40px;
+
+        
+        color: white;
+        text-decoration: none;
+
+    }
+    .show a:hover{
+        background-color: var(--secoundary-color);
+    }
+    .show a{
+        display: block;
+        color: white;
+    }
+    #meun{
+        display: block;
+        margin-left: 1px;
+        
+        
+        
+        font-size: 30px;
+        text-decoration: none;
+        margin-top: 5px;
+        
+    }
+    nav{
+        margin: 0;
+    }
+
+    nav a{
+        display: none;
+        border-radius: none;
+        color: white;
+    }
+
+    #meun.show::before{
+        content: "X";
+        color: white;
+        text-decoration: none;
+
+    }
+    .show.navs{
+        display:block;
+        background-color: var(--primary-color);
+        color: white;
+        margin-top: 5px;
+      
+    }
+    
+    /* another file */
+
+
+
+    #course-container{
+        display: block;
+    }
+
+    .section1,.section2{
+        height: 300px;
+        border: 2px solid var(--accent-1);
+        border-radius: none;
+        box-shadow: none;
+        margin: 5px;
+        width: 100%;
+    }
+
+  .more-d-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+  .main-contianer {
+    display: block;
+  }
+  .main-contianer h2{
+    text-wrap: wrap;
+  }
+
+ .footer1{
+    display: block;
+    font-size: medium;
+ }
+
+
+}
+nav a .active{
+    background-color: green !important;
+}
