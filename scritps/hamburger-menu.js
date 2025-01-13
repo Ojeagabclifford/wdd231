@@ -148,8 +148,6 @@ function displayCourse(cousreAreay){
     num.innerHTML = `The total number of course below is: ${numbercreideit}`;
 }
 
-
-
 document.getElementById('all-course').addEventListener('click', (Event)=>{
     Event.preventDefault();
     displayCourse(news);
@@ -157,14 +155,12 @@ document.getElementById('all-course').addEventListener('click', (Event)=>{
 
 });
 
-
 document.getElementById('wdd-course').addEventListener('click', (Event)=>{
     Event.preventDefault();
     displayCourse(wdd);
 
 
 });
-
 
 document.getElementById('cse-course').addEventListener('click', (Event)=>{
     Event.preventDefault();
@@ -175,19 +171,5 @@ document.getElementById('cse-course').addEventListener('click', (Event)=>{
 
 displayCourse(news);
 
-document.addEventListener('DOMContentLoaded',  function(){
-    const l = document.location.pathname;
 
-    console.log(l);
-    const go = document.querySelectorAll('a');
-
-    //console.log(go);
-    go.forEach(item=>{
-        if(item.getAttribute('href') === l){
-            console.log(item);
-            item.classList.add('active');}
-    });
-
-
-});
     
