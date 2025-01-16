@@ -32,3 +32,18 @@ footer{
     font-size: large;
     border: 1px solid black;
 }
+:root{
+    --primary-color:#245C40;
+    --secoundary-color:#9A173A;
+    --accent-1: #ADCAD6;
+    --margin-:10em;
+    --padding:20px;
+    --front-: "Roboto", serif;
+    --h1:2.5rem;
+    --h2:2rem;
+    --p:1rem;
+}
+
+body{
+    font-family: var(--front-);
+}
