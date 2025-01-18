@@ -1,0 +1,77 @@
+
+    {"companys" :[
+        {
+          "name": "WOW! Cakes Enterprises",
+          "address": "72 Oghobaghase street, Medical Stores Road Ending, Benin City, Edo, Nigeria",
+          "phone": "+234 803 537 7838",
+          "email": "info@wowcakes.com",
+          "website": "https://www.businesslist.com.ng/company/370318/wowcakes",
+          "image": "wowcakes.png",
+          "membershipLevel": 3,
+          "description": "Known for their exquisite cakes and pastries, perfect for all occasions."
+        },
+        {
+          "name": "The Grid Brand",
+          "address": "10 Akin Oladiyun street, Ugbor Village Rd, GRA, Benin City, Edo, Nigeria",
+          "phone": "+234 805 950 6954",
+          "email": "contact@thegridbrand.com",
+          "website": "https://www.thegridbrand.com",
+          "image": "thegridbrand.png",
+          "membershipLevel": 2,
+          "description": "Offers innovative branding solutions to enhance your business identity."
+        },
+        {
+          "name": "Cosmos Boutique & Suits",
+          "address": "26, Forestry Road, Benin City, Edo, Nigeria",
+          "phone": "+234 810 565 2881",
+          "email": "store@cosmosboutique.com",
+          "website": "https://www.businesslist.com.ng/company/370311/cosmos-boutique",
+          "image": "cosmosboutique.png",
+          "membershipLevel": 1,
+          "description": "Your one-stop shop for stylish suits and clothing options."
+        },
+        {
+          "name": "Goldiva Aesthetic SPA",
+          "address": "3B Emovon Crescent, off Ihama, GRA, Benin city, Edo State, Nigeria",
+          "phone": "+234 809 916 9332",
+          "email": "spa@goldiva.com",
+          "website": "https://www.businesslist.com.ng/company/370312/goldivaaspa",
+          "image": "goldivaspa.png",
+          "membershipLevel": 3,
+          "description": "Offers a luxurious spa experience with a range of aesthetic treatments."
+        },
+        {
+          "name": "Deswab Entertainment",
+          "address": "4, JBS Estate Off Boundary, Benin City, Edo, Nigeria",
+          "phone": "+234 806 921 6569",
+          "email": "info@deswabentertainment.com",
+          "website": "https://www.businesslist.com.ng/company/370315/deswab-entertainment",
+          "image": "deswabentertainment.png",
+          "membershipLevel": 1,
+          "description": "Provides top-notch entertainment services for events and parties."
+        },
+        {
+          "name": "Green Diagnostics Company Limited",
+          "address": "16c, Uwasota Road, Off Ugbowo-Lagos Rd, Benin City, Edo, Nigeria",
+          "phone": "08025200314",
+          "email": "lab@greendiagnostics.com",
+          "website": "https://www.businesslist.com.ng/company/370308/green-diagnostics-cn",
+          "image": "greendiagnostics.png",
+          "membershipLevel": 2,
+          "description": "A leading diagnostics company providing accurate and reliable lab services."
+        },
+        {
+          "name": "Creative Bits",
+          "address": "59C, Edo Innovation Hub, ICE Road, Benin City, Nigeria",
+          "phone": "08143283518",
+          "email": "hello@creativebits.com",
+          "website": "https://www.businesslist.com.ng/company/370310/creative-bits",
+          "image": "creativebits.png",
+          "membershipLevel": 3,
+          "description": "Specializes in creative solutions for digital marketing and content creation."
+        }
+
+
+]}
+   
+
