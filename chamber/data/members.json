@@ -30,44 +30,44 @@
      
     },
     {
-      "name": "Goldiva Aesthetic SPA",
-      "address": "3B Emovon Crescent, off Ihama, GRA, Benin city, Edo State, Nigeria",
-      "phone": "+234 809 916 9332",
-      "email": "spa@goldiva.com",
-      "website": "https://www.businesslist.com.ng/company/370312/goldivaaspa",
-      "image": "https://example.com/images/goldivaspa.png",
+      "name": "ARADEL HOLDINGS PLC",
+      "address": "15 BABATUNDE JOSE STREET, VICTORIA ISLAND LAGOS",
+      "phone": "+234 (700) 225-5649",
+      "email": "titiomisore@aradel.com",
+      "website": "www.aradel.com",
+      "image": "https://www.aradel.com/wp-content/uploads/2023/07/logo.png",
       "membershipLevel": 3,
-      "description": "Offers a luxurious spa experience with a range of aesthetic treatments."
+      "description": ""
     },
     {
-      "name": "Deswab Entertainment",
-      "address": "4, JBS Estate Off Boundary, Benin City, Edo, Nigeria",
-      "phone": "+234 806 921 6569",
+      "name": "BETA GLASS PLC.",
+      "address": "Iddo House, Iddo",
+      "phone": "23412705656",
       "email": "info@deswabentertainment.com",
-      "website": "https://www.businesslist.com.ng/company/370315/deswab-entertainment",
-      "image": "https://example.com/images/deswabentertainment.png",
+      "website": "www.frigoglass.com",
+      "image": "https://www.frigoglass.com/media/o4sfjw54/globe-1.png",
       "membershipLevel": 1,
-      "description": "Provides top-notch entertainment services for events and parties."
+      "description": "."
     },
     {
-      "name": "Green Diagnostics Company Limited",
-      "address": "16c, Uwasota Road, Off Ugbowo-Lagos Rd, Benin City, Edo, Nigeria",
-      "phone": "08025200314",
-      "email": "lab@greendiagnostics.com",
-      "website": "https://www.businesslist.com.ng/company/370308/green-diagnostics-cn",
-      "image": "https://example.com/images/greendiagnostics.png",
+      "name": "CAVERTON OFFSHORE SUPPORT GRP PLC",
+      "address": "1 Prince Kayode Akingbade Close, Victoria Island Lagos",
+      "phone": "23412705656",
+      "email": "info@caverton-offshore.com",
+      "website": "www.caverton-offshore.com",
+      "image": "https://caverton-offshore.com/wp-content/uploads/2019/05/logo.png",
       "membershipLevel": 2,
-      "description": "A leading diagnostics company providing accurate and reliable lab services."
+      "description": ""
     },
     {
-      "name": "Creative Bits",
-      "address": "59C, Edo Innovation Hub, ICE Road, Benin City, Nigeria",
-      "phone": "08143283518",
-      "email": "hello@creativebits.com",
-      "website": "https://www.businesslist.com.ng/company/370310/creative-bits",
-      "image": "https://example.com/images/creativebits.png",
+      "name": "AVA INFRASTRUCTURE FUND",
+      "address": "3, Glover Road Ikoyi Lagos",
+      "phone": "08119077037",
+      "email": "samuel.fasoyin@avacapitalgrou",
+      "website": "www.avacapitalgroup.com",
+      "image": "https://avacapitalgroup.com/wp-content/uploads/2024/07/AVA-Capital-Group-Logo.png",
       "membershipLevel": 3,
-      "description": "Specializes in creative solutions for digital marketing and content creation."
+      "description": ""
     }
   ]
 }
