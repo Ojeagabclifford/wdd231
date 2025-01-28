@@ -17,6 +17,7 @@
     padding: 10px;
 }
 
+
 footer {
     display: flex;
     justify-content: center;
@@ -36,6 +37,11 @@ footer {
 body {
     font-family: var(--font);
 }
+.card1 a {
+    color: #073544;
+}
+
+
 
 .card1 {
     display: grid;
@@ -84,6 +90,20 @@ nav ul a {
     color: var(--text-color);
 }
 
+button#grid{
+    width: 100px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button#list{
+    width: 100px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 ul {
     background-color: var(--primary-color);
 }
@@ -103,8 +123,12 @@ ul a:hover {
 }
 
 #cards img {
-    width: 55%; /* Unified with #card1 img */
+        height: auto;
+
+    width: 70px; /* Unified with #card1 img */
 }
+
+
 
 #cards .card {
     background-color: var(--secondary-color);
@@ -116,6 +140,8 @@ ul a:hover {
     margin-top: 10px;
     box-shadow: 3px 3px 3px 3px var(--text-color);
     text-align: center;
+    text-wrap: wrap;
+    width: 80%;
 }
 
 #card1 {
@@ -124,18 +150,25 @@ ul a:hover {
     justify-content: center;
     gap: 15px;
     padding: 0;
-    width: 400px;
+    width: 430px;
     margin: 30px auto;
+    text-wrap: wrap;
 }
 
 #card1 img {
-    width: 55%; /* Unified with #cards img */
+    width: 70px; /* Unified with #card1 img */
+
+    height: auto;
 }
+
 
 #card1 p,
 #cards p {
     text-wrap: wrap;
-    font-size: 0.7rem;
+    text-transform: capitalize;
+    
+    
+    font-size: 12.2px;
 }
 
 #card1 .card,
@@ -209,5 +242,11 @@ cards {
 }
 
 li.current a {
-    background-color: red;
+    text-decoration: underline;
+    color: #F4FC0A;
 }
+/* 
+.button{
+    display: none;
+} */
+

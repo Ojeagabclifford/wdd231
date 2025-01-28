@@ -1,13 +1,14 @@
 {
   "companys": [
     {
-      "name": "The Okomu Oil Company Plc",
-      "address": "The Okomu Oil Company Plc, Okomu-Udo Ovia South West LGA, P.M.B 1449 Benin City, Edo State, Nigeria.",
+      "name": "BERGER PAINTS PLC",
+      "address": "102, Oba Akran Avenue, Ikeja Industrial Estate, Ikeja, Lagos",
       "phone": "07037568382",
-      "email": "okomuinfo@okomunigeria.com",
-      "website": "https://okomunigeria.com/",
-      "image": "http://okomunigeria.com/wp-content/uploads/2021/10/Okomu_1-e1634562609837.png",
-      "membershipLevel": 3
+      "email": "customercare@bergerpaintnig.co",
+      "website": "www.bergerpaintsnig.com",
+      "image": "./images/sait.jpg",
+      "membershipLevel": 3,
+      "description" : "Manufacturing of decorative, industrial automotive and marine paints, putty and allied products"
     },
     {
       "name": "UYI TECHNICAL COMPANY LIMITED",

@@ -6,9 +6,9 @@ const url = './data/members.json';
 const cards = document.querySelector('#cards');
 
 
-async function getProphetData(url) {
+async function getProphetData(url1) {
 
-    const response = await fetch(url);
+    const response = await fetch(url1);
 
     if(response.ok){
         const data = await response.json();
@@ -26,9 +26,9 @@ async function getProphetData(url) {
     
 }
 
-async function getProphetData1(url) {
+async function getProphetData1(url2) {
 
-    const response = await fetch(url);
+    const response = await fetch(url2);
 
     if(response.ok){
         const data = await response.json();
@@ -72,8 +72,8 @@ const displayProphets = (prophets) => {
             templeCard.className ='card';
             templeCard.innerHTML = `
                 <img src="${prophet.image}" alt="${prophet.name}" width="200" height ="100">
-                <p>Name:${prophet.name}<p/>
-                <p>Email:${prophet.email}<p/>
+                <p>Name:${prophet.name}</p>
+                <p>Email:${prophet.email}</p>
                 <a href="${prophet.website}" id="cse-course">${prophet.name}</a>
     `
             cousreTable.appendChild(templeCard);
@@ -101,7 +101,7 @@ const displayProphets = (prophets) => {
 
 const displayProphets1 = (prophets) => {
     
-    console.log(prophets);
+    // console.log(prophets);
     
 
   
@@ -123,8 +123,8 @@ const displayProphets1 = (prophets) => {
             templeCard.className ='card';
             templeCard.innerHTML = `
                 <img src="${prophet.image}" alt="${prophet.name}" width="200" height ="100">
-                <p>Name:${prophet.name}<p/>
-                <p>Email:${prophet.email}<p/>
+                <p>Name:${prophet.name}</p>
+                <p>Email:${prophet.email}</p>
                 <a href="${prophet.website}" id="cse-course">${prophet.name}</a>
     `
             cousreTable.appendChild(templeCard);
