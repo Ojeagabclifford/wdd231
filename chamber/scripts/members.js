@@ -67,14 +67,7 @@ const displayProphets = (prophets) => {
     prophets.forEach(prophet => {
 
             
-        //     const templeCard = document.createElement('div');
-        //     templeCard.className ='container';
-        //     templeCard.innerHTML = `<div class='more-d-container' >
-        //     <h3>${courses.subject} ${courses.number}</h3>`
-
-
-        // cousreTable.appendChild(templeCard);}
-        // else{
+    
             const templeCard = document.createElement('div');
             templeCard.className ='card';
             templeCard.innerHTML = `
@@ -92,52 +85,12 @@ const displayProphets = (prophets) => {
     });
 
     
-        
-    //     const card = document.querySelector('#cards');
-    //     // let email = document.createElement('p');
-    //     // let protrait = document.createElement('img');
-    //     // let name = document.createElement('p');
-    //     // let links = document.createElement('a');
 
 
 
 
     
-    
-//    ${email.textContent=`${prophet.email}`}``
-    
-//         protrait.setAttribute('src', prophet.image);
-//         protrait.setAttribute('alt', `potrait of ${prophet.name}`);
-//         protrait.setAttribute('loading','lazy');
-//         protrait.setAttribute('width','200');
-//         protrait.setAttribute('heigth','100');
-
-//         links.setAttribute('href', prophet.website);
-//         links.textContent=`Website: ${prophet.name}`
- 
-
-   
-
-        // details.innerHTML =`Date of birth: ${companys.email
-        //     } <p>Place of birth:${prophet.
-        //         birthplace
-        //         }</p>`
-        
-        // protrait.setAttribute('src', prophet.imageurl);
-        // protrait.setAttribute('alt', `potrait of ${prophet.name}${prophet.lastname}`);
-        // protrait.setAttribute('loading','lazy');
-        // protrait.setAttribute('width','340');
-        // protrait.setAttribute('heigth','440');
- 
-
-     
-    //   card.appendChild (protrait);
-    //   card.appendChild(name);
-    //   card.appendChild(email);
-    //   card.appendChild(links);
-    
-    //   cards.appendChild(card);
-
+  
         
     };
   
@@ -165,14 +118,7 @@ const displayProphets1 = (prophets) => {
     prophets.forEach(prophet => {
 
             
-        //     const templeCard = document.createElement('div');
-        //     templeCard.className ='container';
-        //     templeCard.innerHTML = `<div class='more-d-container' >
-        //     <h3>${courses.subject} ${courses.number}</h3>`
-
-
-        // cousreTable.appendChild(templeCard);}
-        // else{
+        
             const templeCard = document.createElement('div');
             templeCard.className ='card';
             templeCard.innerHTML = `
@@ -196,15 +142,7 @@ const displayProphets1 = (prophets) => {
 
 document.getElementById('list').addEventListener('click', (Event)=>{
     Event.preventDefault();
-    // const cousreTable = document.getElementById('cards');
-    // cousreTable.innerHTML ='';
-     
-    // const ss = document.createElement('div');
-    // ss.className ='card1';
-    // const d = document.querySelector('.card1')
-    // d.innerHTML = getProphetData(url);
-    // cousreTable.appendChild(ss);
-
+  
    
     
   
@@ -212,7 +150,7 @@ document.getElementById('list').addEventListener('click', (Event)=>{
 
 
     getProphetData1(url);
-     console.log(ss);
+    
 
   
      
@@ -233,17 +171,8 @@ document.getElementById('grid').addEventListener('click', (Event)=>{
 const hambutton  = document.querySelector('#mybutton');
 const  mainnav = document.querySelector('.menulinks');
 
-
-
-
-
-
 hambutton.addEventListener('click',() =>{
-    mainnav.classList.toggle('open');
-
-
-    
-    
+    mainnav.classList.toggle('open'); 
     hambutton.classList.toggle('open');
 
 });
