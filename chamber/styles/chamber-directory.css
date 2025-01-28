@@ -17,6 +17,32 @@
     padding: 10px;
 }
 
+#card1 {
+    /* display: block; */
+    grid-template-columns: repeat(auto-fit, 310px);
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    /* width: 430px; */
+    margin: 30px auto;
+    text-wrap: wrap;
+}
+
+#card1 .card, .card {
+    display: flex;
+    border: none;
+    font-style: var(--font);
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px 3px var(--text-color);
+    text-align: center;
+    text-wrap: wrap;
+    width: 60%;
+    margin: 10px;
+}
+
+
 
 footer {
     display: flex;
@@ -39,6 +65,10 @@ body {
 }
 .card1 a {
     color: #073544;
+}
+
+.ff{
+    display: flex;
 }
 
 
@@ -145,12 +175,12 @@ ul a:hover {
 }
 
 #card1 {
-    display: block;
+    /* display: block; */
     grid-template-columns: repeat(auto-fit, 310px);
     justify-content: center;
     gap: 15px;
     padding: 0;
-    width: 430px;
+    /* width: 430px; */
     margin: 30px auto;
     text-wrap: wrap;
 }
@@ -178,7 +208,7 @@ ul a:hover {
 
 #card1 .card,
 .card {
-    display: block;
+    /* display: block; */
     border: none;
     font-style: var(--font);
     border-radius: 5px;
