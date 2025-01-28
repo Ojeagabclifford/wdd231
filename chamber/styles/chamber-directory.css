@@ -161,11 +161,16 @@ ul a:hover {
     height: auto;
 }
 
+#card1 a,
+#cards a {
+    color: var(--primary-color);
+}
 
 #card1 p,
 #cards p {
     text-wrap: wrap;
     text-transform: capitalize;
+    /* background-color: ; */
     
     
     font-size: 12.2px;
