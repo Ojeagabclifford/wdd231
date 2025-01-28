@@ -13,6 +13,10 @@
     --p:1rem;
 }
 
+footer{
+    display: flex;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -151,6 +155,13 @@ ul a:hover{
     margin-top: 10px;
     box-shadow: 3px 3px 3px  3px var(--text-color-);
     text-align: center;
+   
+    
+}
+.card{
+    width: fit-content;
+    margin: 10px;
+
 }
 
 
@@ -161,17 +172,10 @@ footer{
     text-align: center;
     padding: 10px;
     color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.footer1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
-.footer1 img{
-    width: 5%;
-
-}
 
 
 .card1{
@@ -221,6 +225,12 @@ ul.menulinks, ul.menulinks.open{
 #mybutton{
     display: block;
 
+}
+
+
+footer{
+    display: block;
+    height: 100px;
 }
 
 #mybutton::before{
