@@ -70,12 +70,12 @@ const displayProphets = (prophets) => {
     
             const templeCard = document.createElement('div');
             templeCard.className ='card';
-            templeCard.innerHTML = `<div class="ff">
-                <img src="${prophet.image}" alt="${prophet.name}" width="200" height ="100">
+            templeCard.innerHTML = `
+                <img src="${prophet.image}" alt="${prophet.name}" loading="lazy" width="200" height ="100">
                 <p>Name:${prophet.name}</p>
                 <p>Email:${prophet.email}</p>
                 <a href="${prophet.website}" id="cse-course">${prophet.name}</a>
-                </div>
+                
     `
             cousreTable.appendChild(templeCard);
 

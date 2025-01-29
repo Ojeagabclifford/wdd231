@@ -17,32 +17,6 @@
     padding: 10px;
 }
 
-#card1 {
-    /* display: block; */
-    grid-template-columns: repeat(auto-fit, 310px);
-    justify-content: center;
-    gap: 15px;
-    padding: 0;
-    /* width: 430px; */
-    margin: 30px auto;
-    text-wrap: wrap;
-}
-
-#card1 .card, .card {
-    display: flex;
-    border: none;
-    font-style: var(--font);
-    border-radius: 5px;
-    text-transform: capitalize;
-    margin-top: 10px;
-    box-shadow: 3px 3px 3px 3px var(--text-color);
-    text-align: center;
-    text-wrap: wrap;
-    width: 60%;
-    margin: 10px;
-}
-
-
 
 footer {
     display: flex;
@@ -65,10 +39,7 @@ body {
 }
 .card1 a {
     color: #073544;
-    font-size: small;
-    font-size: 0.5rem;
 }
-
 
 
 
@@ -84,21 +55,22 @@ header {
     background-color: var(--primary-color);
     color: var(--text-color);
     margin-bottom: 1px;
-    display: grid;
-    grid-template-columns: 170px 200px 1fr;
-    align-items: end;
-    justify-content: end;
-    justify-items: end;
+    display: grid
+;
+    grid-template-columns: 100px 80%;
+    align-items: start;
+    justify-content: start;
     height: 100px;
+    justify-items: center;
 }
 
 /* img */
 
 header img {
-    width: 60px;
+    width: 80%;
     border-radius: 50%;
     margin: 3px;
-    margin-left: 60px;
+    margin-left: 20px;
 }
 
 header h2 {
@@ -133,7 +105,22 @@ button#list{
     margin-left: auto;
     margin-right: auto;
 }
-
+#card1 .card{
+    display: flex
+;
+    border: none;
+    font-style: var(--font);
+    border-radius: 5px;
+    text-transform: capitalize;
+    gap: 3%;
+    /* box-shadow: 3px 3px 3px 3px var(--text-color); */
+    text-align: center;
+    border: 1px solid black;
+    /* width: 60%; */
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
 ul {
     background-color: var(--primary-color);
 }
@@ -174,16 +161,18 @@ ul a:hover {
     width: 80%;
 }
 
-#card1 {
-    /* display: block; */
+ #card1 {
+    display: block;
     grid-template-columns: repeat(auto-fit, 310px);
     justify-content: center;
-    gap: 15px;
+    text-align: center;
+    /* gap: 15px;
     padding: 0;
-    /* width: 430px; */
+    width: 430px;
     margin: 30px auto;
-    text-wrap: wrap;
-}
+    text-wrap: wrap; */
+    
+}  
 
 #card1 img {
     width: 70px; /* Unified with #card1 img */
@@ -205,29 +194,21 @@ ul a:hover {
     
     font-size: 12.2px;
 }
-#card1 .card a{
-    font-size: 0.6rem;
-    margin: 100000px;
-}
 
-#card1 .card, .card {
-    display: flex
-;
+/* #card1 .card,
+.card {
+    display: block;
     border: none;
     font-style: var(--font);
-    /* border-radius: 5px; */
-    /* text-transform: capitalize; */
-    /* margin-top: 10px; */
-    /* box-shadow: 3px 3px 3px 3px var(--text-color); */
-    /* text-align: center; */
-    /* text-wrap: wrap; */
-    /* width: 60%; */
-    /* margin: 10px; */
-    flex-wrap: wrap;
-    /* align-items: center; */
-    /* justify-content: center; */
-    flex-direction: row;
-}
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px 3px var(--text-color);
+    text-align: center;
+    text-wrap: wrap;
+    width: 60%;
+    margin: 10px;
+} */
 
 #mybutton {
     display: none;
@@ -246,6 +227,20 @@ ul.menulinks.open {
 @media only screen and (max-width: 864.4px) {
     nav {
         background-color: var(--primary-color);
+    }
+
+    header {
+        gap: 0;
+        background-color: var(--primary-color);
+        color: var(--text-color);
+        margin-bottom: 1px;
+        display: grid
+    ;
+        grid-template-columns: 100px 160px 70px;
+        align-items: center;
+        justify-content: space-between;
+        justify-items: center;
+        height: 100px;
     }
     #mybutton {
         display: block;
@@ -272,6 +267,35 @@ ul.menulinks.open {
     ul.open.menulinks {
         display: block;
     }
+
+
+#card1 .card,
+.card {
+    display: block;
+    border: none;
+    font-style: var(--font);
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px 3px var(--text-color);
+    text-align: center;
+    text-wrap: wrap;
+    width: 60%;
+    margin: 10px;
+}
+#card1 {
+    display: block;
+    grid-template-columns: repeat(auto-fit, 310px);
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    width: 430px;
+    margin: 30px auto;
+    text-wrap: wrap;
+} 
+
+
+
 }
 
 cards {
@@ -293,3 +317,6 @@ li.current a {
     display: none;
 } */
 
+footer{
+    width: 100%;
+}
