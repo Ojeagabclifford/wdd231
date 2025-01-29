@@ -46,7 +46,7 @@
       "phone": "23412705656",
       "email": "info@deswabentertainment.com",
       "website": "www.frigoglass.com",
-      "image": "https://www.frigoglass.com/media/o4sfjw54/globe-1.png",
+      "image": "./images/globe-1.jpg",
       "membershipLevel": 1,
       "description": "."
     },
@@ -66,7 +66,7 @@
       "phone": "08119077037",
       "email": "samuel.fasoyin@avacapitalgrou",
       "website": "www.avacapitalgroup.com",
-      "image": "https://avacapitalgroup.com/wp-content/uploads/2024/07/AVA-Capital-Group-Logo.png",
+      "image": "./images/ava.jpg",
       "membershipLevel": 3,
       "description": ""
     }
