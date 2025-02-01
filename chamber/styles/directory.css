@@ -301,7 +301,8 @@ main img{
     padding: 20px;
     text-align: center;
     /* height: 500px; */
-    width: 100%;
+    /* width: 100%; */
+    font-size: small;
   }
   
   .footer .first-section,
