@@ -18,6 +18,10 @@ main a{
     background-color: black;
     color: white;
 }
+.buiness,.buiness1{
+    font-size: small;
+
+}
 
 
 body{
@@ -402,7 +406,7 @@ main img{
       li a:hover{
       border-bottom: 1px solid black;
       border-top: 1px solid black;
-      
+      background-color: #034C3C;
     }
 
     #card1 .buiness1 p{
