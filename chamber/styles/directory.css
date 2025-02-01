@@ -1,0 +1,540 @@
+:root {
+    --persian-green:#4F031A;
+     --magnolia: white;
+    /* --thistle: #decdf5ff; 
+    --dim-gray: #656176ff;
+    --text-color: #F2EDED; Corrected */
+    --margin: 10em; /* Corrected */
+    --padding: 20px;
+    --font: "Roboto", serif; /* Corrected */
+    --h1: 2.5rem;
+    --h2: 2rem;
+    --p: 1rem;
+}
+
+main a{
+    background-color: black;
+    color: white;
+}
+
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+}
+
+/* Working with the header part for the small screen */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--persian-green);
+    color: var(--magnolia);
+    width: 100%;
+}
+
+.h1-small{
+    font-size: small;
+    margin: 0;
+}
+.header img{
+    width: 70px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.header h1{
+    font-size: 1.5rem;
+}
+
+.header #mybutton::before{
+    
+        display: block;
+        
+        content: "\2630";
+        font-size: 2rem;
+        padding: .25rem 2vw;
+        border: none;
+         color: antiquewhite;
+    }
+
+    #mybutton.open::before {
+        content: "x";
+        font-size: 2.5rem;
+        padding: .25rem 2vw;
+        border: none;
+        color: antiquewhite;
+    }
+    button#mybutton {
+        background-color: var(--persian-green);
+        border: 0;
+    }
+
+
+
+    /*Menu links  */
+
+    ul.menulinks {
+        /* display: none; */
+        list-style-type: none;
+    }
+    /* ul.open.menulinks {
+        display: block;
+        margin: 0;
+      
+
+    } */
+
+    ul.menulinks li a {
+        display: block;
+        padding: .75rem 2vw;
+        text-decoration: none;
+        color: yellow;
+        margin: 0;
+        
+       
+    }
+
+    nav ul {
+
+        background-color: var(--persian-green);
+        /* margin-bottom: 10px; */
+        margin: 0;
+        list-style-type: none;
+       
+    }
+    nav li a:hover{
+        background-color:green;
+    }
+
+
+    ul{
+        list-style-type: none;
+        margin-left: 0;
+    }
+    css
+    li {
+        display: inline-block;
+    }
+
+    ul,li {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .current{
+        background-color:#070500;
+        color: var(--dim-gray);
+    }
+
+    nav{
+        display: grid;
+        grid-template-rows: 0fr;
+        transition: grid-template-rows 0.6s ease-in-out;
+    } 
+    li a:hover{
+        background-color: black;
+    } 
+
+    nav ul {
+        overflow: hidden;
+    }
+
+    nav.open{
+        grid-template-rows: 1fr;
+       
+    }
+
+.secound-section img{
+    width: 15px;
+    border-radius: 10px;
+    height: auto;
+
+}
+
+.secound-section img:hover{
+    border-color: aqua;
+}
+
+main img{
+    width: 100%;
+    height: auto;
+}
+
+.main{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#grid, #list{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+ #list:hover{
+    background-color: aqua;
+}
+
+#grid:hover{
+    background-color: aqua;
+}
+
+#list{
+    display: none;
+}
+
+/* my card */
+
+.card img{
+    width: 100px;
+    /* border: 1px solid black; */
+    
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 20x;
+    margin: auto;
+    border-radius: 5px;
+
+}
+
+
+.card .buiness p{
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 1rem;
+    font-weight: bold;
+   
+   
+}
+
+.card{
+    display: grid;
+    background-color: #034C3C;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+   border-radius: 10px;
+   color: white;
+   /* box-shadow: 10px black;
+    */
+    box-shadow: 7px 5px 10px var(--accent-1);
+    
+
+}
+.card a{
+    color: white;
+}
+
+.buiness{
+    background-color: var(--persian-green);
+    border-radius: 10px;
+    border-bottom: 1px solid white;
+}
+
+.card p{
+    font-size: small;
+    margin: 5px;
+}
+
+.card span{
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+
+
+/* footer */
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color:var(--persian-green);
+    color:white;
+    
+}
+
+.secound-section{
+    text-align: center;
+}
+
+.footer p{
+    font-size: small;
+}
+
+#card1{
+    display: none;
+}
+
+
+
+
+
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--persian-green);
+    /* color: var(--text-color); */
+    padding: 20px;
+    text-align: center;
+    height: 500px;
+  }
+  
+  .footer .first-section,
+  .footer .second-section,
+  .footer .third-section {
+    margin-bottom: 20px;
+  }
+  
+  .second-section a {
+    margin: 0 10px;
+  }
+  
+  .second-section img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  @media (min-width: 625px) {
+    .footer {
+      grid-template-columns: repeat(3, 1fr);
+      text-align: left;
+      align-items: center;
+    }
+  
+    .second-section {
+      text-align: center;
+    }
+  
+    .footer .first-section,
+    .footer .second-section,
+    .footer .third-section {
+      margin-bottom: 0;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* big screen */
+
+    @media only screen and (min-width: 625.4px) {
+        body{
+
+            padding: 0;
+            margin: 0;
+        }
+        /* header */
+        .header {
+            display: flex;
+            justify-content: flex-start;
+            background-color: var(--persian-green);
+            color: var(--magnolia);
+            
+            align-items: center;
+        }
+      .header img{
+        margin-left: 10px;
+        height: auto;
+      }
+    
+        /* nav */
+        button#mybutton{
+            display: none;
+        }
+    
+        ul.menulinks, ul.menulinks.open{
+            display: flex;
+        }
+    
+        
+    ul.menulinks {
+        display: flex;
+        list-style-type: none;
+        width: 100%;
+        height: fit-content;
+    }
+    
+            
+        nav ul {
+            display: flex;
+            justify-self:end;
+            align-items: center;
+        }
+        
+      nav{
+        display: flex;
+        position: absolute;
+        right: 0px;
+        top: 45px;
+      } 
+
+      li a:hover{
+      border-bottom: 1px solid black;
+      border-top: 1px solid black;
+      
+    }
+
+    #card1 .buiness1 p{
+        font-size: small;
+    }
+
+
+    #list{
+        display: inline-block;
+    }
+
+    #grid, #list{
+        width: 100px;
+        height: 40px;
+        margin-bottom: 5px;
+        border: none;
+        border-radius: 10px;
+        font-weight: 800;
+    }
+    
+     #list:hover{
+        background-color: aqua;
+    }
+    
+    #grid:hover{
+        background-color: aqua;
+    }
+
+    /* lsit card */
+    
+    #card1 .card{
+        display: flex;
+        background-color: black;
+
+    }
+    #card1  .buiness{
+        background-color: var(--persian-green);
+        border-radius: 10px;
+        border-bottom: 1px solid white;
+    }
+    
+    #card1  .card p{
+        font-size: small;
+        margin: 5px;
+    }
+    
+    #card1 .card span{
+        font-weight: bold;
+        margin-right: 2px;
+    }
+    
+    #card1 #cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+    }
+
+.card1{
+    background-color: var(--persian-green);
+    /* margin-bottom: 10px; */
+    /* margin-left: 5px; */
+   /* border-radius: 10px; */
+   color: white;
+   /* box-shadow: 10px black;
+    */
+    /* box-shadow: 7px 5px 10px var(--accent-1); */
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+
+	
+    font-size: .8rem;
+    padding: 3px;
+    font-weight: bold;
+    text-align: center;
+    gap: 0;
+    border: 1px solid black;
+    
+
+}
+
+.card1:nth-child(even) {
+	background-color:#034C3C;
+    color:white;
+
+}
+
+.card1 img{
+    width: 100px;
+   
+    /* border: 1px solid black; */
+    
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 20x;
+    margin: auto;
+    border-radius: 5px;
+
+}
+
+#card1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 300px 1fr;
+        background-color: var(--persian-green);
+        align-items: center;
+        justify-items: center;
+        margin-top: 10px;
+        
+    }
+
+
+    #cards{
+        display: flex;
+    }
+
+
+
+    }
+
+    #card1 a{
+        color: white;
+    }
+    
+    
+    
+

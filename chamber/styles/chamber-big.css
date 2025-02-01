@@ -1,0 +1,54 @@
+
+@media only screen and (min-width: 645.4px) {
+    body{
+        /* background: black; */
+        padding: 0;
+        margin: 0;
+    }
+    /* header */
+    .header {
+        display: grid;
+        justify-content: flex-start;
+        background-color: var(--persian-green);
+        color: var(--magnolia);
+        width: 100%;
+        
+        align-items: center;
+    }
+
+
+    /* nav */
+    button#mybutton{
+        display: none;
+    }
+
+    ul.menulinks, ul.menulinks.open{
+        display: flex;
+    }
+
+    
+ul.menulinks {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    height: fit-content;
+}
+
+        
+    nav ul {
+        display: flex;
+        justify-self:end;
+        align-items: center;
+    }
+    
+  nav{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 45px;
+  } 
+}
+
+
+
+
