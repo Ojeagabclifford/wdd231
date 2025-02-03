@@ -7,7 +7,7 @@
       "email": "customercare@bergerpaintnig.co",
       "website": "www.bergerpaintsnig.com",
       "image": "./images/sait.jpg",
-      "membershipLevel": 3,
+      "membershipLevel": "Gold",
       "description" : "Manufacturing of decorative, industrial automotive and marine paints, putty and allied products"
     },
     {
@@ -17,7 +17,7 @@
       "email": "sales@uyitechnical.com",
       "website": "https://uyitechnical.com/",
       "image": "https://uyitechnical.com/images/logo%20name.gif",
-      "membershipLevel": 2
+      "membershipLevel": "Silver"
       
     },
     {
@@ -27,7 +27,7 @@
       "email": "info@azuraedo.com",
       "website": "https://azuraedo.com",
       "image": "https://azuraedo.com/wp-content/uploads/2021/05/azuraedologo-768x118.jpg",
-      "membershipLevel": 1
+      "membershipLevel": "Gold"
      
     },
     {
@@ -37,7 +37,7 @@
       "email": "titiomisore@aradel.com",
       "website": "www.aradel.com",
       "image": "https://www.aradel.com/wp-content/uploads/2023/07/logo.png",
-      "membershipLevel": 3,
+      "membershipLevel": "Silver",
       "description": ""
     },
     {
@@ -47,7 +47,7 @@
       "email": "info@deswabentertainment.com",
       "website": "www.frigoglass.com",
       "image": "./images/globe-1.jpg",
-      "membershipLevel": 1,
+      "membershipLevel": "Gold",
       "description": "."
     },
     {
@@ -57,7 +57,7 @@
       "email": "info@caverton-offshore.com",
       "website": "www.caverton-offshore.com",
       "image": "https://caverton-offshore.com/wp-content/uploads/2019/05/logo.png",
-      "membershipLevel": 2,
+      "membershipLevel": "Silver",
       "description": ""
     },
     {
@@ -67,7 +67,7 @@
       "email": "samuel.fasoyin@avacapitalgrou",
       "website": "www.avacapitalgroup.com",
       "image": "./images/ava.jpg",
-      "membershipLevel": 3,
+      "membershipLevel": "Gold",
       "description": ""
     }
   ]

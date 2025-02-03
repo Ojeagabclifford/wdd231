@@ -183,3 +183,57 @@ const today = new Date();
 currentYear.innerHTML= new Intl.DateTimeFormat('en-US',{
     dateStyle:"medium"
 }).format(today);
+
+
+
+
+
+
+// const currentTemp = document.querySelector('#current');
+// const weatherIcon = document.querySelector('#weather-icon');
+// // const weather = document.querySelector('#weather')
+// // const captionDesc = document.querySelector('figcaption');
+// const lat = 9.84;
+// const lon = 7.35;
+
+
+// const aplkey='58327b3f9ba002136c2861e4aecf7851';
+// const url52 = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${aplkey}`;
+// // 9.844804876861431, 7.354156181597328
+
+// // fecthing the data
+
+// async function apiFetch() {
+//     try {
+//         const response = await fetch(url52);
+//         if (response.ok){
+//             const data = await response.json();
+//             console.log(data)
+            
+//             // displayResults(data);
+            
+            
+          
+//         }
+//         else{
+//             throw Error(await response.text());
+//         }
+        
+//     } catch (error) {
+//         console.log(error);
+        
+//     }
+    
+// }
+// apiFetch();
+
+
+// function displayResults(data) {
+//     currentTemp.innerHTML = `${data.main.temp}&deg;F`;
+//     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+//     let desc = data.weather[0].
+//     description;
+//     weatherIcon.setAttribute('alt', data.weather[0].description);
+//     weatherIcon.setAttribute('src', iconsrc);
+//     captionDesc.textContent = `${desc}`;
+//   }

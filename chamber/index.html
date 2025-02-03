@@ -21,13 +21,15 @@
         <link rel="icon" href="/chamber/images/favicon.ico">
         
         <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
-        <script src="scripts/chember-home.js" defer></script>
+        <script src="scripts/chember-home1.js" defer></script>
         
         <link rel="stylesheet" href="styles/chamber-big.css">
         <link rel="stylesheet" href="styles/chamber-small.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script src="/scripts/weather.js" defer></script>
+        
       
         
         <!-- need to work on the heading -->
@@ -40,7 +42,7 @@
         <h1>
         Edo <span class="h1-small"> <br>Chamber of Commerce</span> 
         </h1>
-        <button id="mybutton" aria-expanded="false"></button>
+        <button id="mybutton" aria-label="nav button"></button>
         
     </header>
 
@@ -64,26 +66,22 @@
 
         <h1 class="h1">Home</h1>
         <section class="home">
-            <div>
+            <div class="event">
                 <p>Event</p>
             </div>
-            <div class="current">
+            <div class="current curren">
                 <p>Current weather</p>
-                <!-- <div class="img2"><img src="images/1530391_weather_clouds_sun_sunny_icon.svg" alt="sunny"></Div> -->
-                    <p><span>Today:</span>50°F</p>
-                    <p><span>Wensday</span>Sunny</p>
-                    <p><span>thurday:</span>5km/h</p>
-                    <!-- <p class="wind-chill">Wind Chill:<span id="wind-chill"></span></p> -->
+                
+                <div id="current"></div>
+               
+               
                 
             </div>
             </div>
-            <div>
-                <!-- <p>Weather Forecast</p>
-                <div class="img2"><img src="images/1530391_weather_clouds_sun_sunny_icon.svg" alt="sunny"></Div> -->
-                    <p><span>Today:</span>50°F</p>
-                    <p><span>Wensday</span>Sunny</p>
-                    <p><span>thurday:</span>5km/h</p>
-                    <!-- <p class="wind-chill">Wind Chill:<span id="wind-chill"></span></p> -->               
+            <div class="weather">
+                <p>Weather Forecast</p>
+                <div  id="weather"></div>
+                         
             </div>
 
     </section>
@@ -93,25 +91,25 @@
     </main>
     <footer class="footer">
         <section class="first-section">
-                <p> Edo Chamber of Commerce</p>
-                <p>5,Ehigba street <br>
-                Avbiosi Owan West <br>
-                ojeagabclifford@gmail.com <br> (234) 7044649784</p>
-                </section>
+            <p> Edo Chamber of Commerce</p>
+            <p>5,Ehigba street <br>
+            Avbiosi Owan West <br>
+            ojeagabclifford@gmail.com <br> (234) 7044649784</p>
+       </section>
                 <section class="secound-section">
                     <a href="http://x.com"> <img src="images/download.png" loading="lazy" alt="x"></a>
                     <a href="https://web.facebook.com/ojeaga.clifford.1"><img src="images/facebook.webp" loading="lazy" alt="facebook"></a>
                     <a href="https://www.youtube.com/@Bxclifford"><img src="images/youtube.webp" loading="lazy" alt="youtube"></a>
                     <a href="http://instragram.com"><img src="images/instargram.webp" loading="lazy" alt="instragram"></a>
-                </div>
+                
                 </section>
 
       <section class="third-section">
         <p>WDD231 class project <br>
             Ojeaga Benjamin Clifford <br>
              ©2025 Edo Chamber of Commerce </p>
-        <p>Last Update: <span id="currentyear">10/01/2025</span><p>
+        <!-- <p>Last Update: <span id="currentyear">10/01/2025</span><p> -->
     </section>
-      </footer>       
+      </footer>         
 </body>
 </html>
