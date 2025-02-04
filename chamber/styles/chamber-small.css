@@ -1018,6 +1018,8 @@ main img{
     
 }
 #weather-icon{
-    width: 50px;
-    height: 50px;
+        width: 50px; 
+        height: 50px; /* Maintain the aspect ratio */
+        max-width: 100%; /* Ensure the image is responsive */
+        image-rendering: -webkit-optimize-contrast;
 }
