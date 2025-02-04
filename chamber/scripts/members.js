@@ -75,6 +75,8 @@ const displayProphets = (prophets) => {
                 <p>Name:${prophet.name}</p>
                 <p>Email:${prophet.email}</p>
                 <a href="${prophet.website}" id="cse-course">${prophet.name}</a>
+                <p><span>Member Level:</span>${prophet.membershipLevel}</p>
+                <p><span>Member Level:</span>${prophet.address}</p>
                 
     `
             cousreTable.appendChild(templeCard);
@@ -127,6 +129,7 @@ const displayProphets1 = (prophets) => {
                 <p>Name:${prophet.name}</p>
                 <p>Email:${prophet.email}</p>
                 <a href="${prophet.website}" id="cse-course">${prophet.name}</a>
+                <p><span>Member Level:</span>${prophet.membershipLevel}</p>
     `
             cousreTable.appendChild(templeCard);
 
