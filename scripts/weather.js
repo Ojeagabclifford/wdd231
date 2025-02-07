@@ -84,8 +84,8 @@ let desc = data.list[0].weather[0].description;
 
 
 
-    currentTemp.innerHTML = `
-     <img id="weather-icon"  src="${iconsrc}"  alt="${desc}">
+    currentTemp.innerHTML = `<div class="icon">
+     <img id="weather-icon"  src="${iconsrc}"  alt="${desc}"></div>
     
     <p>${data.list[1].main.temp}&deg;F</p>
     <p>${data.list[1].weather[0].description}</p>

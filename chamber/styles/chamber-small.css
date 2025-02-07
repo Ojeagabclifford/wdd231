@@ -87,7 +87,7 @@ body{
         display: block;
         padding: .75rem 2vw;
         text-decoration: none;
-        color: var(--magnolia);
+        color: bisque;
         margin: 0;
         
        
@@ -319,6 +319,13 @@ section .hero{
         .hero img {
             width: 100%; /* Scale the image to fit the container width */
   height: auto;
+        }
+
+
+
+        #current img {
+            width: 100px;
+            height:100px;
         }
 
 
@@ -1018,8 +1025,11 @@ main img{
     
 }
 #weather-icon{
-        width: 50px; 
-        height: 50px; /* Maintain the aspect ratio */
-        max-width: 100%; /* Ensure the image is responsive */
-        image-rendering: -webkit-optimize-contrast;
+        width: 10%;
+        height: 10%;
+}
+
+.icon
+{
+    width: 100px;
 }

@@ -3,6 +3,10 @@
 
 const mainnav = document.querySelector('.navs')
 const hambutton = document.querySelector('#meun');
+const courseDetails = document.querySelector('#course-container');
+const displaycourse = document.querySelector('#displaycourse');
+
+      
 
 
 
@@ -123,12 +127,15 @@ function displayCourse(cousreAreay){
     
     
     cousreAreay.forEach(courses => {
+
+
+        displaycourse.innerHTML = `<h3>${courses.title}</h3> `;
         // iif
         if(courses.completed){
             
             const templeCard = document.createElement('div');
             templeCard.className ='container';
-            templeCard.innerHTML = `<div class='more-d-container' >
+            templeCard.innerHTML = `<div class='more-d-container'  >
             <h3>${courses.subject} ${courses.number}</h3>`
 
 
@@ -141,8 +148,10 @@ function displayCourse(cousreAreay){
             cousreTable.appendChild(templeCard);
 
 
+
         }
         numbercreideit +=courses.credits;
+      
         
     });
     const num = document.querySelector('.pp');
@@ -170,7 +179,13 @@ document.getElementById('cse-course').addEventListener('click', (Event)=>{
 
 });
 
+
+courseDetails.addEventListener('click', (Event)=>{
+    displaycourse.classList.toggle('show');});
+
+
 displayCourse(news);
+
 
 
 

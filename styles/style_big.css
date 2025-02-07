@@ -368,3 +368,28 @@ button{
 nav a .active{
     background-color: green !important;
 }
+
+/* Center #displaycourse.show in larger view */
+#displaycourse.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+    background-color: white; /* Adjust as needed */
+    padding: 20px; /* Adjust as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust as needed */
+    z-index: 1000; /* Ensure it is above other elements */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    #displaycourse.show {
+        width: 90%; /* Adjust as needed */
+        padding: 10px; /* Adjust as needed */
+    }
+}
