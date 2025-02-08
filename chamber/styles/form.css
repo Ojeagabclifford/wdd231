@@ -296,7 +296,7 @@ font-size: large;
     }
     25% {
         opacity: 0.25;
-        transform: matriy(-100%);
+        
     }
     to {
         transform: translateX(0);
