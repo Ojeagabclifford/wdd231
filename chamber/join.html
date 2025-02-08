@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+       <title>Edo State Business Hub  Nigeria - Ojeaga Benjamin Clifford</title>
+        <meta name="description" content="WDD231 Ojeaga Benjamin Clifford Home page">
+        <meta name="author" content="To promote local economic growth, support local businesses, and foster a sense of community between the businesses in Edo, Nigeria. WDD231 Ojeaga Benjamin Clifford Home page">
+        <meta property="og:description" content="To promote local economic growth, support local businesses, and foster a sense of community between the businesses in Edo, Nigeria. WDD231 Ojeaga Benjamin Clifford Home page">
+        <meta property="article:author" content="Ojeaga Benjamin Clifford">
+        <meta property="og:title" content="Edo State Business Hub Nigeria - Ojeaga Benjamin Clifford">
+        <meta property="og:type" content="website">
+        <!-- <meta property="og:image" content="/chamber/images/cl">
+        -->
+        <meta property="og:image" content="https://ojeagabclifford.github.io/wdd231/chamber/images/clipx.webp">
+        
+        
+        <meta property="og:url" content="https://ojeagabclifford.github.io/wdd231/chamber/directory.html">
+        <!-- <meta http-equiv="Cache-Control" content="no-store"> -->
+        <link rel="icon" href="/chamber/images/favicon.ico">
+        
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+        <script src="scripts/chember-home1.js" defer></script>
+<!--          -->
+        <link rel="stylesheet" href="styles/directory.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/form.css">
+        <link rel="stylesheet" href="styles/chamber-small.css">
+        
+        </head>
+        <!-- need to work on the heading -->
+<body>
+
+
+    <header class="header">
+    <img src="images/clipx.webp" alt="profile">
+   
+        <h1>
+        Edo <span class="h1-small"> <br>Chamber of Commerce</span> 
+        </h1>
+        <button id="mybutton" aria-label="nav button"></button>
+        
+    </header>
+
+
+    <nav id="animateme" class="nav">
+       
+        <ul class="menulinks">
+            <li><a href="index.html">Home</a></li>
+            <li ><a href="directory.html">Directory</a></li>
+            <li class="current"><a href="#">Join</a></li>
+            <li><a href="#">Discover</a></li>
+          </ul>
+          
+    </nav>
+    <main class="container-main">
+        <form action="thankyou.html" method="get" class="required">
+            <fieldset>
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" title="First Name" autocomplete="given-name" required>
+            </fieldset>
+            
+            <fieldset>
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" title="Last Name" autocomplete="family-name" required>
+            </fieldset>
+            
+            <fieldset>
+                <label for="orgTitle">Organizational Title *</label>
+                <input type="text" id="orgTitle" name="orgTitle" title="Organizational Title" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}" required>
+            </fieldset>
+            
+            <fieldset>
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" title="Email" autocomplete="email" placeholder="example@example.com" required>
+            </fieldset>
+            
+            <fieldset>
+                <label for="phone">Mobile Phone *</label>
+                <input type="tel" id="phone" name="phone" title="Mobile Phone" autocomplete="tel" required>
+            </fieldset>
+            
+            <fieldset>
+                <label for="organization">Organization *</label>
+                <input type="text" id="organization" name="organization" title="Organization" autocomplete="organization" required>
+            </fieldset>
+            
+            <fieldset>
+                <label for="membershipLevel">Membership Level *</label>
+                <select id="membershipLevel" name="membershipLevel" title="Membership Level" required>
+                    <option value="" disabled selected>Select a Membership Level</option>
+                    <option value="NP">NP Membership (Non-Profit, No Fee)</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select>
+            </fieldset>
+            
+            <fieldset>
+                <label for="description">Business/Organization Description</label>
+                <textarea id="description" name="description" title="Business/Organization Description"></textarea>
+            </fieldset>
+            
+            <input type="hidden" id="timestamp" name="timestamp" value="">
+            
+            <input type="submit" value="Submit" id="button">
+        </form>
+        <div>
+           <h3 class="h3">Membership Levels</h3>
+              <div id="np"></div>
+              
+        </div>
+        <dialog id="dialog">
+            
+            <button id="close">Close</button>
+        </dialog>
+
+
+
+
+       
+    </main>
+
+
+
+<footer class="footer">
+    <section class="first-section">
+        <p> Edo Chamber of Commerce</p>
+        <p>5,Ehigba street <br>
+        Avbiosi Owan West <br>
+        ojeagabclifford@gmail.com <br> (234) 7044649784</p>
+   </section>
+            <section class="secound-section">
+                <a href="http://x.com"> <img src="images/download.png" loading="lazy" alt="x"></a>
+                <a href="https://web.facebook.com/ojeaga.clifford.1"><img src="images/facebook.webp" loading="lazy" alt="facebook"></a>
+                <a href="https://www.youtube.com/@Bxclifford"><img src="images/youtube.webp" loading="lazy" alt="youtube"></a>
+                <a href="http://instragram.com"><img src="images/instargram.webp" loading="lazy" alt="instragram"></a>
+            
+            </section>
+
+  <section class="third-section">
+    <p>WDD231 class project <br>
+        Ojeaga Benjamin Clifford <br>
+         ©2025 Edo Chamber of Commerce </p>
+    <!-- <p>Last Update: <span id="currentyear">10/01/2025</span><p> -->
+</section>
+  </footer> 
+  <script src="scripts/join.js"></script>        
+</body>
+</html>

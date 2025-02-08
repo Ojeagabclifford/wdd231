@@ -54,6 +54,7 @@ body{
         padding: .25rem 2vw;
         border: none;
          color: antiquewhite;
+         
     }
 
     #mybutton.open::before {
@@ -62,6 +63,7 @@ body{
         padding: .25rem 2vw;
         border: none;
         color: antiquewhite;
+        animation: slideIn 0.2s ease-in;
     }
     button#mybutton {
         background-color: var(--persian-green);
@@ -129,7 +131,9 @@ body{
     nav{
         display: grid;
         grid-template-rows: 0fr;
-        transition: grid-template-rows 0.6s ease-in-out;
+        transition: grid-template-rows slideIn  0.6s ease-in-out;
+        /* animation: grid-template-rows  0.6s ease-in-out; */
+        overflow: hidden;
     }  
 
     nav ul {
@@ -138,7 +142,21 @@ body{
 
     nav.open{
         grid-template-rows: 1fr;
+        animation: slideIn 0.6s ease-in;
+        
        
+    }
+
+    @keyframes slideIn {
+        from {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+       
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
     }
 
 .secound-section img{

@@ -158,3 +158,5 @@ const displayProphets = (prophets) => {
 
 
 
+document.getElementById('timestamp').value = new Date().toISOString();
+
