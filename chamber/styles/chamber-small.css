@@ -89,7 +89,7 @@ body{
         display: block;
         padding: .75rem 2vw;
         text-decoration: none;
-        color: bisque;
+        color: white;
         margin: 0;
         
        
@@ -142,7 +142,7 @@ body{
 
     nav.open{
         grid-template-rows: 1fr;
-        animation: slideIn 0.6s ease-in;
+        /* animation: slideIn 0.6s ease-in; */
         
        
     }
