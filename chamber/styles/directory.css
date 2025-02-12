@@ -1,6 +1,6 @@
 /* Root variables */
 :root {
-    --persian-green: #4F031A;
+    --persian-green:#0e0105;
     --magnolia: white;
     --margin: 10em;
     --padding: 20px;
@@ -116,7 +116,7 @@ ul, li {
 }
 
 .current {
-    background-color: #070500;
+    background-color: #14047e;
     color: var(--dim-gray);
 }
 
