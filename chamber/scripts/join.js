@@ -3,7 +3,7 @@ const dialog = document.getElementById('dialog');
 // Display all membership details
 function displayMembershipDetails(memberships) {
     const np = document.getElementById('np');
-    np.innerHTML = ''; // Clear existing content
+    // np.innerHTML = ''; // Clear existing content
     memberships.forEach(membership => {
         np.innerHTML += `
         <div class="memeberships">
@@ -90,3 +90,14 @@ const memberships = [
 
 // Display all membership details
 displayMembershipDetails(memberships);
+
+
+const hambutton  = document.querySelector('#mybutton');
+const  mainnav = document.querySelector('#animateme');
+
+hambutton.addEventListener('click',() =>{
+    
+    mainnav.classList.toggle('open'); 
+    hambutton.classList.toggle('open');
+
+});

@@ -1,0 +1,177 @@
+.container-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: black;
+    display: grid;
+    grid-template-areas:
+        "name"
+        "image"
+        "description"
+        "address"
+        "button";
+    gap: 10px;
+    margin: 0;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    grid-area: name;
+}
+
+.card figure {
+    margin: 0;
+    margin-bottom: 10px;
+    grid-area: image;
+}
+
+.card img {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.card address {
+    font-style: normal;
+    color: #555;
+    margin-bottom: 10px;
+    grid-area: address;
+}
+
+.card p {
+    margin-bottom: 20px;
+    grid-area: description;
+}
+
+.card button {
+    background-color: #010a15;;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    grid-area: button;
+
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
+
+@media only screen and (min-width: 39rem) {
+    .card {
+        grid-template-areas:
+            "image name"
+            "image address"
+            "image description"
+            "image button";
+        grid-template-columns: 1fr 1fr;
+        max-width: 700px;
+        width: 100%;
+        height: auto;
+    }
+
+    .card img {
+        width: 300px;
+        height: 260px;
+        border-radius: 8px;
+    }
+
+    .card figure {
+        margin: 0;
+        grid-area: image;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 64rem) {
+
+    .container-main {
+        display: grid;
+        
+        grid-template-columns: 1fr 1fr;
+      
+    }
+
+  
+}   
+.sidebar {
+    position: fixed;
+    top: 15%;
+    /* right: auto; */
+    left: 10%;
+    width: 50%;
+    height: 400px;
+    z-index: 1000;
+
+    
+    background-color: #f8f9fa;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: translateX(-180%);
+    transition: transform 0.9s ease;
+    text-align: center;
+    border-radius: 5px;
+}
+.sidebar p {
+    font-size: 1.5rem;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.sidebar:hover{
+    background-color: #83bcf9;
+
+}
+::backdrop{
+    background-color: rgba(249, 16, 16, 0.5);
+}
+
+.sidebar.open {
+    transform: translate(0);
+}
+
+.close-sidebar {
+    background-color:#010a15;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+    align-self: flex-end;
+    
+}
+
+.close-sidebar:hover {
+    background-color: #0056b3;
+}
+
