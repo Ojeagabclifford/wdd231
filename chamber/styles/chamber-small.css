@@ -129,7 +129,7 @@ body{
 
 
     .current{
-        background-color:rgba(0, 0, 0);
+        background-color:rgb(27, 4, 103);
         color: var(--dim-gray);
     }
 
@@ -443,7 +443,7 @@ section .hero{
 /*  */
 
 :root {
-    --persian-green:#4F031A;
+    --persian-green:#0e0105;
      --magnolia: white;
     /* --thistle: #decdf5ff; 
     --dim-gray: #656176ff;
@@ -543,7 +543,7 @@ body{
         text-decoration: none;
         /* color: yellow; */
         color: #c6f4e5;
-        background-color: #0a0a01;
+        /* background-color: #0a0a01; */
         
         margin: 0;
         
