@@ -120,27 +120,7 @@
 
   
 }   
-.sidebar {
-    position: fixed;
-    top: 15%;
-    /* right: auto; */
-    left: 10%;
-    width: 50%;
-    height: 400px;
-    z-index: 1000;
 
-    
-    background-color: #f8f9fa;
-    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    transform: translateX(-180%);
-    transition: transform 0.9s ease;
-    text-align: center;
-    border-radius: 5px;
-}
 .sidebar p {
     font-size: 1.5rem;
     margin-top: 100px;
@@ -151,24 +131,41 @@
     background-color: #83bcf9;
 
 }
-::backdrop{
-    background-color: rgba(249, 16, 16, 0.5);
+
+
+
+.sidebar {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: auto;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
 }
 
 .sidebar.open {
-    transform: translate(0);
+    display: flex;
+    opacity: 1;
 }
 
 .close-sidebar {
-    background-color:#010a15;
+    background-color: #000b16;
     color: #fff;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
-    transition: background-color 0.9s ease;
+    transition: background-color 0.3s ease;
     align-self: flex-end;
-    
 }
 
 .close-sidebar:hover {

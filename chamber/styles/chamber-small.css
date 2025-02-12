@@ -19,6 +19,8 @@ body{
     font-family: var(--font);
 }
 
+
+
 /* Working with the header part for the small screen */
 
 .header{
@@ -85,11 +87,14 @@ body{
 
     } */
 
+
+    ul.menulinks li a:hover{
+        background-color:rgb(25, 27, 25);}
     ul.menulinks li a {
         display: block;
         padding: .75rem 2vw;
         text-decoration: none;
-        color: #69F0C5;
+    
         margin: 0;
         
        
@@ -537,6 +542,8 @@ body{
         padding: .75rem 2vw;
         text-decoration: none;
         /* color: yellow; */
+        color: #c6f4e5;
+        
         margin: 0;
         
        
