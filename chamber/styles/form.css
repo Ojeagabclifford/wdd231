@@ -190,7 +190,7 @@ font-family:"Roboto", serif
 
 
 .memeberships{
-    background-color: #333; /* Light grey background */
+    background-color: var(--persian-green);
     color: white; /* Dark grey text */
     text-align: center;
     padding: 1.5rem;
