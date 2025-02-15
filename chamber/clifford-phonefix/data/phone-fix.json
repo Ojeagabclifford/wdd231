@@ -1,0 +1,92 @@
+{
+    "screen_replacement": {
+      "tools": [
+        "Suction Cup",
+        "Plastic Opening Tool",
+        "Phillips Screwdriver",
+        "Spudger",
+        "Heat Gun or Hair Dryer",
+        "New Screen Assembly"
+      ],
+      "instrutions": [
+        "Replaceing your phone's screen can be a challenging task, but with the right tools and instructions, you can do it yourself. Here's a step-by-step guide to help you replace your phone's screen:"
+      ],
+      "steps": [
+        "Power Off the Device: Ensure your phone is completely powered off to avoid any electrical damage.",
+        "Heat the Edges: Use a heat gun or hair dryer to gently heat the edges of the phone. This helps loosen the adhesive.",
+        "Use a Suction Cup: Place the suction cup on the screen and gently lift to create a small gap between the screen and the frame.",
+        "Insert Plastic Opening Tool: Carefully slide the plastic opening tool along the edges to separate the screen from the frame. Be gentle to avoid damaging internal components.",
+        "Remove Screws: Use the Phillips screwdriver to remove any screws that secure the screen assembly to the frame.",
+        "Disconnect the Display Connector: Use a spudger to disconnect the display connector from the motherboard.",
+        "Remove the Screen: Carefully lift the screen assembly away from the frame.",
+        "Install the New Screen: Place the new screen assembly into the frame and secure it with screws.",
+        "Reconnect the Display Connector: Use the spudger to reconnect the display connector to the motherboard.",
+        "Reassemble the Phone: Snap the screen back into place.",
+        "Power On the Device: Turn on your phone to ensure the new screen is working properly."
+      ],
+      "tips": [
+        "Be Patient: Take your time and be gentle to avoid damaging any components.",
+        "Use Anti-Static Tools: To prevent static damage, use anti-static tools or wear an anti-static wrist strap.",
+        "Follow Manufacturer's Instructions: Refer to your phone's specific repair guide for any variations in the process."
+      ]
+    },
+    "cleaning_charging_port": {
+      "tools": [
+        "Toothpick (preferably wooden or plastic)",
+        "Compressed Air Can (optional)",
+        "Small Brush (like a clean, dry toothbrush)"
+      ],
+      "steps": [
+        "Turn Off Your Phone: Power off your device completely to avoid any electrical damage.",
+        "Inspect the Charging Port: Use a flashlight to look inside the charging port and identify any visible debris or lint.",
+        "Gently Insert the Toothpick: Carefully insert the toothpick into the charging port. Be gentle to avoid damaging the internal components. Avoid using metal objects.",
+        "Clean the Port: Gently scrape and lift out any lint, dust, or debris. Use a slow, twisting motion to avoid pushing debris further into the port. If using a compressed air can, give short bursts of air to blow out any remaining particles. Hold the can upright and avoid tilting it to prevent liquid from escaping.",
+        "Use the Small Brush: If needed, use a small, clean brush to gently sweep away any remaining debris from the port.",
+        "Inspect the Port Again: After cleaning, use the flashlight to inspect the port again and ensure it's free of debris.",
+        "Test the Charging Port: Turn on your phone and connect it to a charger to ensure it's charging properly."
+      ],
+      "tips": [
+        "Regular Maintenance: Clean your charging port regularly to prevent debris buildup.",
+        "Avoid Liquids: Do not use liquids to clean the port as it can damage the internal components.",
+        "Use Anti-Static Tools: If possible, use anti-static tools to prevent static electricity damage."
+      ]
+    },
+    "repair_messages": [
+      {
+        "title": "Screen Replacement",
+        "message": "Cracked screen? Follow these steps to replace it: power off, heat edges, use suction cup, insert tool, remove screws, disconnect display, install new screen, reconnect display, reassemble, and power on.",
+        "img": "images/screen-replacement .webp"
+      },
+      {
+        "title": "Clean Charging Port",
+        "message": "If your phone isn't charging, gently remove debris from the charging port using a toothpick or small brush. Avoid using metal objects to prevent damage.",
+        "img": "images/clean-charging-port.png"
+      },
+      {
+        "title": "Replace Battery",
+        "message": "Is your battery draining quickly? If your phone's battery is removable, power off the device, remove the back cover, take out the old battery, insert the new one, and reassemble.",
+        "img": "images/replace-battery.png"
+      },
+      {
+        "title": "Fix Loose Buttons",
+        "message": "Having trouble with loose buttons? Gently press the button to check if it's attached. If still loose, use a small amount of super glue to secure it and let it dry.",
+        "img": "images/fix-loose-buttons.png"
+      },
+      {
+        "title": "Water Damage",
+        "message": "Accidentally dropped your phone in water? Turn it off immediately, remove the battery (if possible), and place the phone in a bowl of rice or use silica gel packets to absorb moisture.",
+        "img": "images/water-damage.png"
+      },
+      {
+        "title": "Install Screen Protector",
+        "message": "Protect your screen from scratches! Clean your screen thoroughly, align the protector, gently press down, and use a credit card to smooth out bubbles.",
+        "img": "images/install-screen-protector.png"
+      },
+      {
+        "title": "Troubleshoot Software Issues",
+        "message": "Experiencing software glitches? Restart your phone or perform a factory reset to fix software issues. Remember to back up your data first.",
+        "img": "images/troubleshoot-software-issues.png"
+      }
+    ]
+  }
+  

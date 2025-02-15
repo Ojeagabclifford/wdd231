@@ -14,76 +14,94 @@
     <meta property="og:url" content="https://ojeagabclifford.github.io/wdd231/chamber/directory.html">
     <link rel="icon" href="/chamber/images/favicon.ico">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=account_circle" />
     <link rel="stylesheet" href="styles/site-plan.css">
+    <link rel="stylesheet" href="styles/header-footer.css">
+    <link rel="stylesheet" href="styles/index-main.css">
+    <script src="scripts/header-footer.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+    
     
 
 </head>
 <body>
-    <h1>PhoneFix Guide - Site Plan</h1>
-
-    <div class="section">
-        <h2>Site Name:</h2>
-        <p>PhoneFix Guide</p>
-    </div>
-
-    <div class="section">
-        <h2>Purpose:</h2>
-        <p>PhoneFix Guide is a comprehensive online resource dedicated to helping users repair their phones with step-by-step tutorials, and expert tips. Whether you're fixing a cracked screen, replacing a battery, or diagnosing software issues, we provide clear instructions and video demonstrations to make repairs easier and more affordable.</p>
-    </div>
-
-    <div class="section">
-        <h2>Reason & Purpose:</h2>
-        <ul>
-            <li><strong>Save Money:</strong> Help users repair their own phones instead of paying for expensive services.</li>
-            <li><strong>Build a Community:</strong> Create a space where people can share repair experiences and solutions.</li>
-            <li><strong>Personal Training:</strong> Provide knowledge on how to start repairing phones.</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Scenarios:</h2>
-        <ul>
-            <li>Users looking to fix a cracked screen on their phone.</li>
-            <li>Users needing to replace a phone battery.</li>
-            <li>Users diagnosing and fixing software issues.</li>
-            <li>Users seeking advice and tips from experts and the community.</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Color Schema:</h2>
-        <a href="https://coolors.co/1e73be-f8f9fa-e91e63-f5f5f5-333333">color palette</a>
-        <ul>
-            <li><strong>Primary Color:</strong>#1e73be (Navy Blue)</li>
-            <li><strong>Secondary Color:</strong> #f8f9fa (Light Gray)</li>
-            <li><strong>Accent Color:</strong> #e91e63 (Magenta)</li>
-            <li><strong>Background Color:</strong> #f5f5f5 (Very Light Gray)</li>
-            <li><strong>Text Color:</strong> #333 (Dark Gray)</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Typography:</h2>
-        <ul>
-            <li><strong>Font Family:</strong> Roboto, sans-serif</li>
-            <li><strong>Headings:</strong> Bold, #333 (Dark Gray)</li>
-            <li><strong>Body Text:</strong> Regular, #333 (Dark Gray)</li>
-        </ul>
-    </div>
-
-    <div class="section1">
-        <h2>Wireframe:</h2>
-        <a href="https://wireframe.cc/D5GGO">Wide screen</a>
-        <p>wide screen</p>
-        <img src="images/wide.png" alt="wide">
-
-
-        <a href="https://wireframe.cc/">small screen Wireframe</a>
-        <p>small screen</p>
+    <header class="header-container">
+        <img src="images/logo.png" alt="mylogo">
+        <h1>Phone fix</h1>
+        <nav class="nav-container" id="nav-id">
+            <ul>
+                <li><a id="current" href="#">Home</a></li>
+                <li><a href="http://">Conetents</a></li>
+                <li><a href="http://">Videos</a></li>
+                <li><a href="http://">About us</a></li>
+            </ul>
+           
+        </nav>
        
-        <img src="images/small1.png" alt="small">
-        <img src="images/small2.png" alt="small">
-        <img src="images/small3.png" alt="small">
+        <button id="mybutton" aria-label="nav button"></button>
+        <button class="button-acount"><span class="material-symbols-sharp " id="sharp">
+            account_circle
+            </span></button>
+    </header>
+     <div id="small-menu">
+
+     </div>
+    <main >
+        <div class="main-container">
+            <section class="section-container1">
+                <h2 >Screen Replacement Tools & how to fix it</h2>
+                <p id="explanation"> </p>
+                <div>
+                <button id="tools-list">Tools</button>
+                <button id="how-to">How to fix it</button></div>
+
+             
+            <!-- <h3>Tools</h3>
+            <ul id="tools-list"></ul> -->
+
+        </section>
+        <img src="images/screen-replacement.webp" alt="screen replacement" loading="lazy">
+
     </div>
+
+    <div>
+        <h2 class="h2e">These are other types of phone problems and their solutions</h2>
+        <div id="phone-problems">
+
+
+        </div>
+    </div>
+    <dialog id="dialog">
+       
+
+    </dialog>
+
+    </main>
+    <footer class="footer-container">
+        <img class="imgs" src="images/logo.png" alt="mylogo">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="http://">Conetents</a></li>
+            <li><a href="http://">Videos</a></li>
+            <li><a href="http://">About us</a></li>
+        </ul>
+       
+        <section class="secound-section">
+            <a href="http://x.com"> <img src="images/download.png" loading="lazy" alt="x"></a>
+            <a href="https://web.facebook.com/ojeaga.clifford.1"><img src="images/facebook.webp" loading="lazy" alt="facebook"></a>
+            <a href="https://www.youtube.com/@Bxclifford"><img src="images/youtube.webp" loading="lazy" alt="youtube"></a>
+           
+        </section>
+        <p> ©2025 WDD231 class project 
+            Ojeaga Benjamin Clifford
+             </p>
+             <ul class="last-ul">
+                <li><a href="#">Terms</a></li>
+                <li><a href="http://">Policy</a></li>
+                
+            </ul>
+
+    </footer>
+    
 </body>
 </html>

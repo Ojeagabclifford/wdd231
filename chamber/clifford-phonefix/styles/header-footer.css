@@ -1,0 +1,297 @@
+:root {
+    --primary-color: #1e73be; /* Navy Blue */
+    --secondary-color: #f8f9fa; /* Light Gray */
+    --accent-color: #e91e63; /* Magenta */
+    --background-color: #f5f5f5; /* Very Light Gray */
+    --text-color: #333; /* Dark Gray */
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header-container {
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    display: grid;
+    grid-template-areas: "image title button button1";
+    align-items: center;
+    justify-items: center;
+    height: 9em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 0 1em;
+}
+
+.header-container img {
+    grid-area: image;
+    width: 5em;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 1.1);
+    margin-right: 0.5em; /* Add some space between the image and the heading */
+}
+
+.header-container h1 {
+    grid-area: title;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0.5em;
+    border-left: 1px solid var(--primary-color);
+    padding-left: 0.5em; /* Add some padding to the left of the heading */
+}
+
+nav{
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.6s ease-in-out;
+    /* animation: grid-template-rows  0.6s ease-in-out; */
+    overflow: hidden;
+    font-size: larger;
+    font-weight: bold;
+}  
+
+nav ul {
+    overflow: hidden;
+}
+
+nav.open{
+    grid-template-rows: 1fr;
+    /* animation: slideIn 0.6s ease-in; */
+    
+   
+}
+nav a{
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 1em;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid var(--primary-color);
+}
+ul li{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+.header-container nav ul {
+    /* display: flex; */
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container nav ul li a {
+    padding: 0.5em;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.header-container nav ul li a:hover {
+    color: var(--accent-color);
+}
+
+.current {
+    border-bottom: 2px solid var(--accent-color);
+}
+
+#mybutton {
+    grid-area: button1;
+    border: none;
+    display: block; /* Ensure the button is visible by default */
+}
+
+#mybutton::before {
+    content: "\2630";
+    font-size: 2rem;
+    padding: .25rem 2vw;
+    border: none;
+    display: block;
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    border-radius: 9px;
+    font-weight: bold;
+}
+
+#mybutton:hover {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+#mybutton.open::before {
+    content: "x";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.button-acount{
+    border: none;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    
+}
+
+#sharp{
+    font-weight:bolder;
+    font-size: xx-large;
+}
+
+.button-acount:hover{
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+
+
+/* footer */
+
+
+.footer-container{
+    background-color: var(--text-color);
+    color: var(--background-color);
+    display: grid;
+    grid-template-areas: "logo links"
+  
+    "at  at"
+    "socail liknks2";
+    /* grid-template-columns: 1fr auto; */
+    align-items: center;
+    justify-items: center;
+    /* height: 3em; */
+    box-shadow: 10px 2px 5px rgba(26, 25, 25, 0.9);
+    padding: 0 1em;
+}
+
+footer p{
+    grid-area: at;
+    margin: 0;
+    padding: 0.5em;
+    border-left: 1px solid var(--secondary-color);
+    padding-left: 0.5em; /* Add some padding to the left of the heading */
+}
+
+.footer-container .imgs{
+    grid-area: logo;
+    width: 2em;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 1.1);
+    margin-right: 0.5em; /* Add some space between the image and the heading */
+}
+
+
+.footer-container  ul {
+    grid-area: links;
+  
+}
+
+.footer-container .secound-section{
+    grid-area: socail;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secound-section img{
+    width: 2em;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 1.1);
+    margin-right: 0.5em; /* Add some space between the image and the heading */
+}
+
+
+.footer-container .last-ul{
+    grid-area: liknks2;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer ul a{
+    /* text-decoration: none; */
+    color: var(--secondary-color);
+    /* padding: 1rem; */
+    display: block;
+    padding: 10px;
+   
+}
+footer ul a:hover{
+    color: var(--text-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 669px) {
+    .header-container {
+        grid-template-areas: "image title nav button";
+    }
+
+    nav {
+        font-size: larger;
+        font-weight: bold;
+        display: flex;
+        grid-area: nav; 
+        padding: 10px;/* Show nav on larger screens */
+    }
+
+    #mybutton {
+        display: none; /* Hide button on larger screens */
+    }
+    nav ul{
+        display: flex;
+    }
+    nav a{
+        border-bottom:0;
+    }
+
+    .footer-container{
+        /* background-color: var(--primary-color); */
+        color: var(--secondary-color);
+        display: grid;
+        grid-template-areas: "logo links socail"
+        "at  at liknks2";
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        justify-items: center;
+        /* height: 3em; */
+        box-shadow: 10px 2px 5px rgba(26, 25, 25, 0.9);
+        padding: 0 1em;
+    }
+
+
+
+
+
+}
+
+a#current{
+    border-bottom: 2px solid var(--accent-color);
+}
