@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #073544;
+    --persian-green:#0e0105;
     --secondary-color: #D1CACA; /* Corrected spelling */
     --accent-1: white;
     --accent-2: #FF44FF;
@@ -125,10 +125,7 @@ ul {
     background-color: var(--primary-color);
 }
 
-ul a:hover {
-    color: #F4FC0A;
-    font-size: larger;
-}
+
 
 #cards {
     display: grid;
@@ -310,10 +307,7 @@ cards {
     justify-content: center;
 }
 
-li.current a {
-    text-decoration: underline;
-    color: #F4FC0A;
-}
+
 /* 
 .button{
     display: none;

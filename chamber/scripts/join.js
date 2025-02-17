@@ -1,5 +1,9 @@
 const dialog = document.getElementById('dialog');
 
+
+
+
+
 // Display all membership details
 function displayMembershipDetails(memberships) {
     const np = document.getElementById('np');

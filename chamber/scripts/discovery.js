@@ -1,4 +1,4 @@
-import { activities } from '../scripts/activites.js';
+const url = './data/activites.json';
 
 const dialog = document.getElementById('mydialog');
 const container = document.querySelector('.container-main');
@@ -6,15 +6,30 @@ const sidebar = document.getElementById('sidebar');
 const sidebarContent = document.getElementById('sidebar-content');
 const closeSidebarButton = document.getElementById('close-sidebar');
 
+async function getProphetData(url1) {
+    const response = await fetch(url1);
+
+    if (response.ok) {
+        const data = await response.json();
+        // console.log("Data fetched successfully");
+        // console.log(data);
+        displayActivities(data);
+    } else {
+        console.log("Failed to fetch data");
+    }
+}
+
 function displayActivities(activities) {
-    // container.innerHTML = ''; // Clear existing content
+    // console.log(activities);
     activities.forEach(activity => {
+        // console.log(activity.name)
+      
         const card = document.createElement('div');
         card.classList.add('card');
         card.innerHTML = `
             <h2>${activity.name}</h2>
             <figure>
-                <img src="${activity.photo_url}" alt="${activity.name}">
+                <img src="${activity.photo_url}"loading="lazy"  alt="${activity.name}">
             </figure>
             <p>${activity.description}</p>
             <address>${activity.address}</address>
@@ -80,8 +95,9 @@ function displayLastVisitMessage() {
 
 // Add event listener for DOMContentLoaded to ensure the script runs after the page is fully loaded
 document.addEventListener('DOMContentLoaded', () => {
-    // Display the activities
-    displayActivities(activities);
+    // Fetch and display the activities
+    // getProphetData(url);
+    getProphetData(url);
 
     // Display the last visit message
     displayLastVisitMessage();
@@ -93,4 +109,16 @@ document.addEventListener('DOMContentLoaded', () => {
     closeSidebarButton.addEventListener('click', () => {
         sidebar.classList.remove('open');
     });
+});
+
+
+
+const hambutton  = document.querySelector('#mybutton');
+const  mainnav = document.querySelector('#animateme');
+
+hambutton.addEventListener('click',() =>{
+    
+    mainnav.classList.toggle('open'); 
+    hambutton.classList.toggle('open');
+
 });

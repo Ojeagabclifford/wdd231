@@ -9,7 +9,7 @@
     .header {
         display: grid;
         justify-content: flex-start;
-        background-color: var(--persian-green);
+        /* background-color: var(--persian-green); */
         color: var(--magnolia);
         width: 100%;
         
