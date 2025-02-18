@@ -1,4 +1,4 @@
-[
+export const activites = [
     {
         "name": "Benin National Museum",
         "address": "King's Square, Benin City, Edo State, Nigeria",

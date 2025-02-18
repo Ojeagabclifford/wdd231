@@ -1,4 +1,4 @@
-const url = './data/activites.json';
+// const url = './data/activities.json';
 
 const dialog = document.getElementById('mydialog');
 const container = document.querySelector('.container-main');
@@ -6,30 +6,31 @@ const sidebar = document.getElementById('sidebar');
 const sidebarContent = document.getElementById('sidebar-content');
 const closeSidebarButton = document.getElementById('close-sidebar');
 
-async function getProphetData(url1) {
-    const response = await fetch(url1);
+// async function getProphetData(url) {
+//     const response = await fetch(url);
 
-    if (response.ok) {
-        const data = await response.json();
-        // console.log("Data fetched successfully");
-        // console.log(data);
-        displayActivities(data);
-    } else {
-        console.log("Failed to fetch data");
-    }
-}
+//     if (response.ok) {
+//         const data = await response.json();
+//         console.log("Data fetched successfully");
+//         displayActivities(data);
+//     } else {
+//         console.log("Failed to fetch data");
+//     }
+// }
+
+import { activites } from "../data/activites.mjs";
+// console.log(activites);
+displayActivities(activites);
+
 
 function displayActivities(activities) {
-    // console.log(activities);
     activities.forEach(activity => {
-        // console.log(activity.name)
-      
         const card = document.createElement('div');
         card.classList.add('card');
         card.innerHTML = `
             <h2>${activity.name}</h2>
             <figure>
-                <img src="${activity.photo_url}"loading="lazy"  alt="${activity.name}">
+                <img src="${activity.photo_url}" loading="lazy" alt="${activity.name}">
             </figure>
             <p>${activity.description}</p>
             <address>${activity.address}</address>
@@ -97,7 +98,6 @@ function displayLastVisitMessage() {
 document.addEventListener('DOMContentLoaded', () => {
     // Fetch and display the activities
     // getProphetData(url);
-    getProphetData(url);
 
     // Display the last visit message
     displayLastVisitMessage();
@@ -111,14 +111,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+const hambutton = document.querySelector('#mybutton');
+const mainnav = document.querySelector('#animateme');
 
-
-const hambutton  = document.querySelector('#mybutton');
-const  mainnav = document.querySelector('#animateme');
-
-hambutton.addEventListener('click',() =>{
-    
-    mainnav.classList.toggle('open'); 
+hambutton.addEventListener('click', () => {
+    mainnav.classList.toggle('open');
     hambutton.classList.toggle('open');
-
 });
