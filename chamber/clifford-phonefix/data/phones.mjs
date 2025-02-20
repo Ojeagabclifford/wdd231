@@ -28,7 +28,7 @@
       {
         "name": "RedMagic 9S Pro",
         "price": "₦1,300,000 - ₦1,700,000",
-        "picture": "images/redmagic.webp"
+        "picture": "images/red-phone.webp"
       },
       {
         "name": "iPhone 16",
