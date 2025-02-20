@@ -28,7 +28,7 @@ function displayData(data) {
         listItem.innerHTML = `
             <h2>${problem.title}</h2>
             <p>${problem.message}</p>
-            <img src="${problem.img}" alt="${problem.title}">
+            <img src="${problem.img}" width="50"  height="50" alt="${problem.title}">
         `;
         phoneProblems.appendChild(listItem);
        

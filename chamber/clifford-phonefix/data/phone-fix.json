@@ -60,32 +60,32 @@
       {
         "title": "Clean Charging Port",
         "message": "If your phone isn't charging, gently remove debris from the charging port using a toothpick or small brush. Avoid using metal objects to prevent damage.",
-        "img": "images/clean-charging-port.png"
+        "img": "images/cleaningchargeringport.webp"
       },
       {
         "title": "Replace Battery",
         "message": "Is your battery draining quickly? If your phone's battery is removable, power off the device, remove the back cover, take out the old battery, insert the new one, and reassemble.",
-        "img": "images/replace-battery.png"
+        "img": "images/replacebattery.webp"
       },
       {
         "title": "Fix Loose Buttons",
         "message": "Having trouble with loose buttons? Gently press the button to check if it's attached. If still loose, use a small amount of super glue to secure it and let it dry.",
-        "img": "images/fix-loose-buttons.png"
+        "img": "images/losebutton.webp"
       },
       {
         "title": "Water Damage",
         "message": "Accidentally dropped your phone in water? Turn it off immediately, remove the battery (if possible), and place the phone in a bowl of rice or use silica gel packets to absorb moisture.",
-        "img": "images/water-damage.png"
+        "img": "images/waterdameagephone.webp"
       },
       {
         "title": "Install Screen Protector",
         "message": "Protect your screen from scratches! Clean your screen thoroughly, align the protector, gently press down, and use a credit card to smooth out bubbles.",
-        "img": "images/install-screen-protector.png"
+        "img": "images/screenprotector.webp"
       },
       {
         "title": "Troubleshoot Software Issues",
         "message": "Experiencing software glitches? Restart your phone or perform a factory reset to fix software issues. Remember to back up your data first.",
-        "img": "images/troubleshoot-software-issues.png"
+        "img": "images/troubleshot.webp"
       }
     ]
   }

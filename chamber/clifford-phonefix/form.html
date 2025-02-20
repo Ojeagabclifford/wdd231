@@ -39,7 +39,6 @@
             </ul>
            
         </nav>
-       
         <button id="mybutton" aria-label="nav button"></button>
         <a id="sign-button" class="button-acount" href="form.html"> <span class="material-symbols-sharp " id="sharp">
             account_circle
@@ -48,36 +47,35 @@
      <div id="small-menu">
 
      </div>
-    <main >
-        <div class="main-container">
-            <section class="section-container1">
-                <h2 >Screen Replacement Tools & how to fix it</h2>
-                <p id="explanation"> </p>
-                <div>
-                <button id="tools-list">Tools</button>
-                <button id="how-to">How to fix it</button></div>
+    <main class="form1">
 
-             
-            <!-- <h3>Tools</h3>
-            <ul id="tools-list"></ul> -->
-
-        </section>
-        <img src="images/screen-replacement.webp" alt="screen replacement" loading="lazy">
-
-    </div>
-
-    <div>
-        <h2 class="h2e">These are other types of phone problems and their solutions</h2>
-        <div id="phone-problems">
-
-
-        </div>
-    </div>
-    <dialog id="dialog">
-       
-
-    </dialog>
-
+        <form action="thankyou.html" method="get" class="required">
+            <fieldset>
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" title="First Name" autocomplete="given-name" required>
+            </fieldset>
+            
+            <fieldset>
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" title="Last Name" autocomplete="family-name" required>
+            </fieldset>
+            
+            <fieldset>
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" title="Email" autocomplete="email" placeholder="example@example.com" required>
+            </fieldset>
+            
+            <fieldset>
+                <label for="phone">Mobile Phone *</label>
+                <input type="tel" id="phone" name="phone" title="Mobile Phone" autocomplete="tel" required>
+            </fieldset>
+                     
+            <input type="hidden" id="timestamp" name="timestamp" value="">
+            
+            <input type="submit" value="Submit" id="button">
+            <!-- <button type="button" id="close-dialog">Close</button> -->
+        </form>
+        
     </main>
     <footer class="footer-container">
         <a href="index.html"><img class="imgs" src="images/logo.png" alt="mylogo"></a>

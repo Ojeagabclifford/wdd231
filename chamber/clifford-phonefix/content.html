@@ -17,11 +17,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=account_circle" />
     <link rel="stylesheet" href="styles/site-plan.css">
     <link rel="stylesheet" href="styles/header-footer.css">
-    <link rel="stylesheet" href="styles/index-main.css">
-    <link rel="stylesheet" href="styles/form.css">
     <link rel="icon" href="images/favicon.ico">
+    <!-- <link rel="stylesheet" href="styles/index-main.css"> -->
+    <!-- <link rel="stylesheet" href="styles/form.css"> -->
     <script src="scripts/header-footer.js" defer></script>
-    <script src="scripts/main.js" defer></script>
+    <!-- <script src="scripts/main.js" defer></script> -->
+     <link rel="stylesheet" href="styles/phone.css">
     
     
 
@@ -32,14 +33,13 @@
         <h1>Phone fix</h1>
         <nav class="nav-container" id="nav-id">
             <ul>
-                <li><a id="current" href="#">Home</a></li>
-                <li><a href="content.html">Contents</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a  id="current"  href="content.html">Contents</a></li>
                 <li><a href="videos.html">Videos</a></li>
                 <li><a href="aboutus.html">About us</a></li>
             </ul>
            
         </nav>
-       
         <button id="mybutton" aria-label="nav button"></button>
         <a id="sign-button" class="button-acount" href="form.html"> <span class="material-symbols-sharp " id="sharp">
             account_circle
@@ -49,45 +49,19 @@
 
      </div>
     <main >
-        <div class="main-container">
-            <section class="section-container1">
-                <h2 >Screen Replacement Tools & how to fix it</h2>
-                <p id="explanation"> </p>
-                <div>
-                <button id="tools-list">Tools</button>
-                <button id="how-to">How to fix it</button></div>
-
-             
-            <!-- <h3>Tools</h3>
-            <ul id="tools-list"></ul> -->
-
-        </section>
-        <img src="images/screen-replacement.webp" alt="screen replacement" loading="lazy">
-
-    </div>
-
-    <div>
-        <h2 class="h2e">These are other types of phone problems and their solutions</h2>
-        <div id="phone-problems">
-
-
-        </div>
-    </div>
-    <dialog id="dialog">
+        <h2 class="h2">This page is meant to display the latest phones and their prices.</h2>
+        <div class="phone-container"></div>
        
-
-    </dialog>
 
     </main>
     <footer class="footer-container">
         <a href="index.html"><img class="imgs" src="images/logo.png" alt="mylogo"></a>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="content.html">Contents</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a   href="content.html">Contents</a></li>
             <li><a href="videos.html">Videos</a></li>
             <li><a href="aboutus.html">About us</a></li>
         </ul>
-       
         <section class="secound-section">
             <a href="http://x.com"> <img src="images/download.png" loading="lazy" alt="x"></a>
             <a href="https://web.facebook.com/ojeaga.clifford.1"><img src="images/facebook.webp" loading="lazy" alt="facebook"></a>
@@ -105,6 +79,7 @@
 
     </footer>
     <script src="scripts/join.js" defer></script>
+    <script src="scripts/phones.js" type="module" defer></script>
     
 </body>
 </html>

@@ -1,0 +1,56 @@
+:root {
+    --primary-color: #1e73be; /* Navy Blue */
+    --secondary-color: #f8f9fa; /* Light Gray */
+    --accent-color: #e91e63; /* Magenta */
+    --background-color: #f5f5f5; /* Very Light Gray */
+    --text-color: #333; /* Dark Gray */
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.h2{
+    text-align: center;
+}
+.phone-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.phone-card {
+    background-color: var(--background-color);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.phone-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.phone-card h2 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin: 0.5rem 0;
+}
+
+.phone-card p {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin: 0.5rem 0;
+}
+
+.phone-card:hover {
+    transform: translateY(-10px);
+}

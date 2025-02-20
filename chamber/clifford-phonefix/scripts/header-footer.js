@@ -29,3 +29,13 @@ hambutton.addEventListener('click', () => {
     mainnav.classList.toggle('open');
     hambutton.classList.toggle('open');
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const lazyElements = document.querySelectorAll('img[loading="lazy"], iframe[loading="lazy"]');
+
+    lazyElements.forEach(element => {
+        element.addEventListener('load', () => {
+            element.classList.add('loaded');
+        });
+    });
+});

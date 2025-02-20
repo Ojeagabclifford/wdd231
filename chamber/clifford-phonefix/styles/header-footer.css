@@ -154,6 +154,16 @@ ul {
 }
 
 
+img[loading="lazy"], iframe[loading="lazy"] {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+img[loading="lazy"].loaded, iframe[loading="lazy"].loaded {
+    opacity: 1;
+}
+
+
 
 /* footer */
 
@@ -228,11 +238,12 @@ footer ul a{
     color: var(--secondary-color);
     /* padding: 1rem; */
     display: block;
-    padding: 10px;
+    
+    margin: 5px;
    
 }
 footer ul a:hover{
-    color: var(--text-color);
+    color: var(--primary-color);
 }
 
 
